@@ -1,2 +1,3 @@
 # Persian-Georgian-date-map-holiday
-Persian Georgian date map + Persian holiday identification
+Persian date to Georgian date mapping + Persian holiday identification
+Based on API provided at https://pholiday.herokuapp.com/

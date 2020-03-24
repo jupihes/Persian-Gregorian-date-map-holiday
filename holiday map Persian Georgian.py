@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Mar 19 2020
-@author: hesam.mo
+@author: hesam
 """
 import pandas as pd
 import requests  
 
 def Persian_year_list(y=1398):
     date_list = []
-    if y%4 == 3:
+    if y % 4 == 3:
         k = 31 # leap year identifiation 1395 was leap year
     else:
         k = 30
@@ -16,10 +16,10 @@ def Persian_year_list(y=1398):
         if i < 7: # first 6 months of year = 31 days
             for j in range(1,32):
                 date_list.append(str(y)+'-'+str(i)+'-'+str(j))
-        elif 6 < i < 12: # next 5 months
+        elif 6 < i < 12: # next 5 months = 30 days
             for j in range(1,31):
                 date_list.append(str(y)+'-'+str(i)+'-'+str(j))
-        else: # Esfand
+        else: # Esfand = based on leap year status
             for j in range(1,k):
                 date_list.append(str(y)+'-'+str(i)+'-'+str(j))
     return date_list

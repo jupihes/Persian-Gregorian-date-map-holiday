@@ -51,3 +51,9 @@ for i in range(1393,1399):
     
 
 # df = pd.concat([df93,df94,df95,df96,df97,df98],ignore_index=True)
+
+## adding part to identify weekends
+df.loc[df.holiday == True, 'holiday or weekend'] = True 
+df.loc[df[df.event =='جمعه'].index.values - 1, 'holiday or weekend'] = True
+df.loc[df['holiday or weekend']> 0, 'holiday or weekend'] = 1
+df.loc[df['holiday or weekend'] != 1, 'holiday or weekend'] = 0

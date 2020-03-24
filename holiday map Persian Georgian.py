@@ -13,16 +13,16 @@ def Persian_year_list(y=1398):
     else:
         k = 30
     for i in range(1,13): # for 12 months
-        if i<7: # first 6 months
+        if i < 7: # first 6 months of year = 31 days
             for j in range(1,32):
                 date_list.append(str(y)+'-'+str(i)+'-'+str(j))
-        elif i<12: # next 5 months
+        elif 6 < i < 12: # next 5 months
             for j in range(1,31):
                 date_list.append(str(y)+'-'+str(i)+'-'+str(j))
         else: # Esfand
             for j in range(1,k):
                 date_list.append(str(y)+'-'+str(i)+'-'+str(j))
-    return 
+    return date_list
 
 
 def date_mapping(date_list):

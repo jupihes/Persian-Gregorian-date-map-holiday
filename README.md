@@ -1,6 +1,6 @@
 # Persian-Georgian-date-map and Event / Holiday details
 
-Having a reference date mapping between [Jalali ( Persian) Calendar](https://en.wikipedia.org/wiki/Jalali_calendar) and [Georgian Calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) is needed for different data analysis. It is helpful to have below information about each day
+Having a reference date mapping between [Jalali ( Persian) Calendar](https://en.wikipedia.org/wiki/Jalali_calendar) and [Gregorian Calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) is needed for different data analysis. It is helpful to have below information about each day
 
 - Persian event of the day
 - Holiday or not

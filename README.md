@@ -1,10 +1,10 @@
 # Persian-Georgian-date-map and Event / Holiday details
 
-Having a reference date mapping between [Jalali ( Persian) Calender](https://en.wikipedia.org/wiki/Jalali_calendar) and [Georgian Calender](https://en.wikipedia.org/wiki/Gregorian_calendar) is needed for different data analysis. It is helpful to have below information about each day
+Having a reference date mapping between [Jalali ( Persian) Calendar](https://en.wikipedia.org/wiki/Jalali_calendar) and [Georgian Calendar](https://en.wikipedia.org/wiki/Gregorian_calendar) is needed for different data analysis. It is helpful to have below information about each day
 
-- Pesian event of the day
+- Persian event of the day
 - Holiday or not
-- Weedend or not
+- Weekend or not
 
 I write this project which make such a reference for based on API provided at https://pholiday.herokuapp.com/.
 
